@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+mobile/node_modules/
+
+# Production build outputs & APKs
+dist/
+mobile/dist/
+web-build/
+*.apk
+*.aab
+
+# Expo caches & temporary files
+.expo/
+mobile/.expo/
+expo-env.d.ts
+*.tsbuildinfo
+
+# Android native build outputs & caches
+.gradle/
+**/.gradle/
+**/build/
+**/.cxx/
+local.properties
+**/local.properties
+release/
+
+# IDE & OS caches
+.idea/
+.kotlin/
+*.iml
+.DS_Store
+Thumbs.db
+
+# iOS native build outputs & Pods
+Pods/
+**/Pods/
+*.orig.*
+
+# Keystores & sensitive credentials
+*.jks
+*.keystore
+!debug.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.env*.local
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log

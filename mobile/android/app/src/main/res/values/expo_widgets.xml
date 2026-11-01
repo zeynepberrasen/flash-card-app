@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="expo_widgets_names">
+    <item>FlashcardWidget</item>
+  </string-array>
+  <string name="flashcard_widget_display_name">Flashcard Widget</string>
+  <string name="flashcard_widget_description">Review questions and answers from your flashcard decks on your home screen</string>
+</resources>
